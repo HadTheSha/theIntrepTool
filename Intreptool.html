@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="keyboard.css">
+    <link rel="stylesheet"  href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="keyboard.js" charset="UTF-8"></script>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    </head>
+          
+    <title>IntrepTool</title>
+
+  </head>
+  <body class="container">
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">The IntrepTool</a>
+        </div>
+      </nav>
+
+    <div class="row">
+      <!-- MARGINS -->
+      <div class="col s10 m8 l10 pull-s2"> 
+        <!-- Teal page content  -->
+        <div class="row s12 m8 l9">
+          <div class="col s12">
+            <!-- START OF TEXTARE -->
+            <div class="switch">
+              <label>
+                EN
+                <input type="checkbox" class="checkBoxID">
+                <span class="lever"></span>
+                AR
+              </label>
+            </div>
+            <form class="col s12">
+              <div class="row ">
+                <div class="input-field col s12">
+                  <textarea  class="materialize-textarea keyboardInput form-control notesT" id="textarea1"></textarea>
+                  <label for="textarea1">NOTES</label>
+                </div>
+              </div>
+            </form>
+            
+          <!-- END OF TEXTAREA -->
+          </div>
+          <!-- SECOND ROW -->
+          <div class="col s12">
+
+            <ul id="tabs-swipe-demo" class="tabs">
+              <li class="tab col s2.5"><a class="active" href="#test-swipe-1"> Educational </a></li>
+              <li class="tab col s2.5"><a  href="#test-swipe-2"> Medical </a></li>
+              <li class="tab col s2.5"><a href="#test-swipe-3">Media/Economy</a></li>
+              <li class="tab col s2.5"><a href="#test-swipe-4">Scientific</a></li>
+              <li class="tab col s2.5"><a href="#test-swipe-5">General</a></li>
+            </ul>
+            <div id="test-swipe-1" class="col s12">
+              <div class=" smbls col s12" id="card1">
+                <div class="col s12">
+                    <ul id="keyboardS">
+                      <li class="letter"> Cr </li>
+                      <li class="letter"> Sem </li>
+                      <li class="letter"> Edu. </li>
+                      <li class="letter"> HI </li>
+                      <li class="letter"> Dep. </li>
+                      <li class="letter"> Gov. </li>
+                      <li class="letter"> ¶ </li>
+                      <li class="letter"> √ </li>
+                      <li class="letter" style="font-weight: bold"> ∩ </li>
+                      <li class="letter" style="font-weight: bold" > ∈ </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div id="test-swipe-2" class="col s12">
+              <div class="smbls col s12" id="card2">
+                <div>
+                  <ul id="keyboardS">
+                    <li class="letter"> polyr </li>
+                    <li class="letter"> PT </li>
+                    <li class="letter"> BP </li>
+                    <li class="letter"> CVA </li>
+                    <li class="letter"> HA </li>
+                    <li class="letter"> &lt; </li>
+                    <li class="letter" style="font-weight: bold"> + </li>
+                    <li class="letter" style="font-weight: bold"> - </li>
+                    <li class="letter"> 1 ͦ </li>
+                    <li class="letter"> 2 ͦ </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="test-swipe-3" class="col s12">
+              <div class=" smbls col s12" id="card3">
+                <div>
+                    <ul id="keyboardS">
+                      <li class="letter"> Cmnt </li>
+                      <li class="letter"> Adnc </li>
+                      <li class="letter"> DM </li>
+                      <li class="letter"> rprt </li>
+                      <li class="letter"> ᶞrcver </li>
+                      <li class="letter"> 4mt </li>
+                      <li class="letter"> Bio </li>
+                      <li class="letter"> LK </li>
+                      <li class="letter"> # </li>
+                      <li class="letter"> $ </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+             <div id="test-swipe-4" class="col s12">
+               <div class=" smbls col s12" id="card4">
+                <div>
+                  <ul id="keyboardS">
+                    <li class="letter"> Dev </li>
+                    <li class="letter"> Phys </li>
+                    <li class="letter"> DNA </li>
+                    <li class="letter" style="font-size: 13px;"> GRLOG </li>
+                    <li class="letter"> LIC </li>
+                    <li class="letter"> OS </li>
+                    <li class="letter"> ❍ </li>
+                    <li class="letter" style="font-weight: bold"> ∵ </li>
+                    <li class="letter" style="font-weight: bold"> C </li>
+                    <li class="letter" style="font-weight: bold"> Z </li>
+                  </ul>
+                  </div>
+               </div>
+             </div>
+            <div id="test-swipe-5" class="col s12">
+              <div class="smbls col s12" id="card5">
+                <div>
+                  <ul id="keyboardS">
+                    <li class="letter"> A / &amp; </li>
+                    <li class="letter"> B4 </li>
+                    <li class="letter"> ASAP </li>
+                    <li class="letter"> Hist </li>
+                    <li class="letter"> Vol. </li>
+                    <li class="letter"> ♀ </li>
+                    <li class="letter"> ♂ </li>
+                    <li class="letter"> % </li>
+                    <li class="letter" style="font-weight: bold"> Ø </li>
+                    <li class="letter" style="font-weight: bold"> ◴ </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- THIRD ROW  -->
+          <div class="col s12 ">
+            <ul id="keyboard">
+              <li class="symbol" ><span class="off">`</span><span class="on">~</span></li>
+              <li class="symbol" id="1"><span class="off">1</span><span class="on">!</span></li>
+              <li class="symbol" id="2"><span class="off">2</span><span class="on">@</span></li>
+              <li class="symbol" id="3"><span class="off">3</span><span class="on">#</span></li>
+              <li class="symbol" id="4"><span class="off">4</span><span class="on">$</span></li>
+              <li class="symbol" id="5"><span class="off">5</span><span class="on">%</span></li>
+              <li class="symbol" id="6"><span class="off">6</span><span class="on">^</span></li>
+              <li class="symbol" id="7"><span class="off">7</span><span class="on">&amp;</span></li>
+              <li class="symbol" id="8"><span class="off">8</span><span class="on">*</span></li>
+              <li class="symbol" id="9"><span class="off">9</span><span class="on">(</span></li>
+              <li class="symbol" id="0"><span class="off">0</span><span class="on">)</span></li>
+              <li class="symbol" ><span class="off">-</span><span class="on">_</span></li>
+              <li class="symbol" ><span class="off">=</span><span class="on">+</span></li>
+              <li class="delete lastitem  " id="dele">delete</li>
+              <li class="tabKB ">tab</li>
+              <li class="letter" id="q">q</li>
+              <li class="letter" id="w">w</li>
+              <li class="letter" id="e">e</li>
+              <li class="letter" id="r">r</li>
+              <li class="letter" id="t">t</li>
+              <li class="letter" id="y">y</li>
+              <li class="letter" id="u">u</li>
+              <li class="letter" id="i">i</li>
+              <li class="letter" id="o">o</li>
+              <li class="letter" id="p">p</li>
+              <li class="symbol" id="jj" ><span class="off">[</span><span class="on">{</span></li>
+              <li class="symbol" id="tt" ><span class="off">]</span><span class="on">}</span></li>
+              <li class="symbol lastitem"><span class="off">\</span><span class="on">|</span></li>
+              <li class="capslock">caps lock</li>
+              <li class="letter" id="a">a</li>
+              <li class="letter" id="s">s</li>
+              <li class="letter" id="d">d</li>
+              <li class="letter" id="f">f</li>
+              <li class="letter" id="g">g</li>
+              <li class="letter" id="h">h</li>
+              <li class="letter" id="j">j</li>
+              <li class="letter" id="k">k</li>
+              <li class="letter" id="l">l</li>
+              <li class="symbol" id="semicolon" ><span class="off">;</span><span class="on">:</span></li>
+              <li class="symbol" ><span class="off">'</span><span class="on">&quot;</span></li>
+              <li class="return lastitem">return</li>
+              <li class="left-shift">shift</li>
+              <li class="letter" id="z">z</li>
+              <li class="letter" id="x">x</li>
+              <li class="letter" id="c">c</li>
+              <li class="letter" id="v">v</li>
+              <li class="letter" id="b">b</li>
+              <li class="letter" id="n">n</li>
+              <li class="letter" id="m">m</li>
+              <li class="symbol" ><span class="off">,</span><span class="on">&lt;</span></li>
+              <li class="symbol" ><span class="off">.</span><span class="on">&gt;</span></li>
+              <li class="symbol" ><span class="off">/</span><span class="on">?</span></li>
+              <li class="right-shift lastitem">shift</li>
+              <li class="space lastitem">&nbsp;</li>
+            </ul>
+          </div>
+          <!-- GOOGLE API -->
+          <div class="col s12 "> GOOGLE API</div>
+        </div>
+        <!-- EMAIL FORWARD -->
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">mail_outline</i>SEND NOTES TO MY EMAIL</div>
+              <div class="collapsible-body"><span>
+                <div class="row">
+                  <!-- EMAIL FORM -->
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- SEND BUTTON -->
+                <button class="btn waves-effect waves-light" type="submit" name="action">SEND
+                  <i class="material-icons right">send</i>
+                </button>
+              </span></div>
+            </li>
+          </ul>
+          <!-- END OF EMAIL FORWARD -->
+      </div>
+      <!-- SECON COLUMN -->
+      <div class="col s2 push-s0.5"><span class="flow-text">
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea keyboardInputMargin margin"></textarea>
+          <label for="textarea1">MARGINS</label>
+        </div>
+      </div>
+    </form>
+  </div>
+      </span></div>
+
+    </div>
+  </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

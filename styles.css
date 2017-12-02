@@ -1,0 +1,23 @@
+#body {
+    background-color: white;
+
+}
+
+
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font: 71%/1.5 Verdana, Sans-Serif;
+background: #eee;
+}
+
+.smbls{
+width: 760px;
+height: 85px;
+margin:6px;
+}
+
+
+
